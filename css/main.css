@@ -661,7 +661,7 @@ input[type="button"] {
 	padding: 0 3rem;
 	margin: 0 .3rem 1.2rem 0;
 	background: #d8d8d8;
-	color: #ffffff;
+	color: #313131;
 	text-decoration: none;
 	cursor: pointer;
 	text-align: center;
@@ -726,7 +726,7 @@ button.large, .button.large {
 }
 button.stroke, .button.stroke {
 	background: transparent !important;
-	border: 3px solid #fdfbfb;
+	border: 3px solid #313131;
 	line-height: 4.8rem;
 }
 button.stroke.medium, .button.stroke.medium {
@@ -738,6 +738,23 @@ button.stroke.large, .button.stroke.large {
 button.stroke:hover, .button.stroke:hover {
 	border: 3px solid #FF0077;
 	color: #FF0077;
+}
+button.stroke1, .button.stroke1 {
+	background: transparent !important;
+	border: 3px solid #ffffff;
+	color: #ffffff;
+	line-height: 4.8rem;
+}
+button.stroke.medium1, .button.stroke1.medium {
+	line-height: 5.1rem !important;
+}
+button.stroke1.large, .button.stroke1.large {
+	line-height: 5.4rem !important;
+}
+button.stroke1:hover, .button.stroke1:hover {
+	border: 3px solid #FF0077;
+	color: #FF0077;
+}
 }
 button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
@@ -2311,7 +2328,7 @@ header .logo a {
 	padding: 0 2rem;
 	margin: 0;
 	color: #FFFFFF;
-	background:  #FF0077;
+	background: #FF0077;
 }
 #contact form .form-field label::after {
 	position: absolute;
@@ -2350,7 +2367,7 @@ header .logo a {
 	padding: 1.8rem 2rem;
 }
 #contact textarea:focus {
-	border-color: rgb(3, 3, 3);
+	border-color: #FF0077;
 	color: #FFFFFF;
 }
 #contact button.submitform {
