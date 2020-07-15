@@ -524,7 +524,6 @@ select {
 	padding: 1.5rem 0;
 	border: 0;
 	outline: none;
-	vertical-align: middle;
 	color: #313131;
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.5rem;
@@ -755,7 +754,7 @@ button.stroke1:hover, .button.stroke1:hover {
 	border: 3px solid #FF0077;
 	color: #FF0077;
 }
-}
+
 button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
